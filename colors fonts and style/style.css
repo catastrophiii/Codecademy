@@ -1,0 +1,29 @@
+.fontbox1 {
+    border: 2px solid black;
+
+}
+
+.fontbox2 {
+    border: 2px solid black;
+}
+
+.fontbox3 {
+    border: 2px solid black;
+}
+ 
+.stylebox1 {
+    border: 2px solid black;
+}
+
+.stylebox2 {
+    border: 2px solid black;
+}
+
+.stylebox3 {
+    border: 2px solid black;
+}
+
+.colors {
+    text-align: center;
+    border: 3px solid black;
+}

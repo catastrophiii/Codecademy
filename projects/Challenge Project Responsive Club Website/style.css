@@ -1,0 +1,244 @@
+html, body {
+    font-size: 16px;
+    font-family: 'Forum', sans-serif;
+    background-color: lightsalmon;
+    overflow-x: hidden;
+    
+    
+        
+        
+    
+   
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+ul {
+    
+    list-style: none; 
+    color: lightsalmon;
+}
+
+nav {
+    background-color: teal;
+    
+    
+}
+    
+
+.nav {
+    margin-bottom: 7rem;
+    
+   
+    
+}
+
+.list {
+    display: flex;
+    padding: 1rem;
+
+}
+
+.list-items {
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightsalmon;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    height: 100px;
+    margin-bottom: 7rem;
+}
+
+.about {
+    margin-bottom: 5rem;
+}
+
+.about h2 {
+    color: yellow;
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    color: white;
+    line-height: 1.5rem;
+}
+
+.img1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.runners {
+    display: inline-block;
+    padding: 0rem 2rem;
+    
+    
+    
+}
+
+
+
+.runners img {
+    height: 400px;
+    width: 550px;
+}
+
+.testimony {
+    background-color: teal;
+    height: 300px;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.quote h1 {
+    color: yellow;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+.quote p {
+    color: white;
+    text-align: center;
+}
+
+.img2 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.hanging {
+    display: inline-block;
+    padding: 0rem 2rem;
+}
+
+.hanging img {
+    height: 400px;
+    width: 550px;
+}
+
+.container {
+    text-align: center;
+    color: yellow;
+    margin-bottom: 2rem;
+}
+
+.come-join h1 {
+    margin-bottom: 50px;
+}
+
+.church-runner img {
+    margin-bottom: 40px;
+}
+ 
+footer {
+    background-color: teal;
+    height: 70px;
+    
+}
+
+.items {
+    display: flex;
+    padding: 1.5rem;
+}
+
+.items-list {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav {
+        width: 100%;
+        
+    }
+    .header {
+        width: 100%;
+    }
+
+    .about {
+        width: 100%;
+        height: 2rem;
+        margin-bottom: 10rem;
+    }
+
+    .hanging {
+        display: block;
+        padding: 1rem 0rem;
+    }
+
+    .hanging img  {
+        width: 8rem;
+        height: 7rem;
+        border-radius: 1rem;
+    }
+
+    .runners {
+        display: block;
+        padding: 1rem 0rem;
+        
+        
+        
+        
+    }
+
+    .runners img {
+       width: 8rem;
+       height: 7rem;
+       border-radius: 1rem;
+       
+       
+       
+       
+    }
+
+    
+
+    .testimony {
+        height: 10rem;
+        
+    }
+
+    .church-runner img {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+    
+
+}

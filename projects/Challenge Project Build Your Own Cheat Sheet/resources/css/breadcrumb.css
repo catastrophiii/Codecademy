@@ -1,0 +1,12 @@
+.breadcrumb li {
+    display: inline;
+}
+
+.breacrumb li.location+li.location::before {
+    content: ">";
+}
+
+.breadcrumb li a:hover {
+    color: red;
+    text-decoration: underline;
+}

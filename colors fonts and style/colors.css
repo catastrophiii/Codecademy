@@ -1,0 +1,242 @@
+
+
+html {
+    font-size: 20px;
+   
+    color: cornflowerblue;
+    
+}
+
+header {
+  
+   
+}
+
+
+
+h1 {
+    font-size: 30px;
+    color: black;
+    
+    text-decoration: underline;
+    
+    
+    
+}
+
+h2 {
+    
+    color: black;
+    text-decoration: underline;
+}
+
+body{
+    
+}
+
+li a:active {
+    color: orange;
+}
+
+li a:hover {
+    color: black;
+
+}
+
+
+
+.container1 {
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+   
+    
+
+}
+
+.container2 {
+    border: 2px solid black;
+    margin: 10px;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+    
+}
+
+
+.container3 {
+    border: 2px solid black;
+    margin: 10px;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+   
+    
+
+}
+
+
+
+
+
+.colorbox1 {
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    width: 100px;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 20px;
+
+}
+
+.colorbox2 {
+    background-color: red;
+    color: white;
+    width: 100px;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.colorbox3 {
+    background-color: green;
+    color: white;
+    width: 100px;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.heading1 {
+    color: black;
+    font-size: 50px;
+}
+
+.heading2 {
+    color: black;
+    font-size: 40px;
+}
+
+.heading3 {
+    color: black;
+    font-size: 30px;
+}
+
+
+
+.fontbox3 {
+    display: block;
+}
+
+
+.sans {
+    font-style: sans-serif;
+    text-decoration: underline;
+    margin: auto;
+    
+    
+
+}
+
+#sans1 {
+    text-decoration: underline;
+}
+
+#sans2 {
+    font-weight: bold;
+
+}
+
+#sans3 {
+    font-style: italic ;
+}
+
+.poppins{
+    font-family: 'poppins', sans-serif;
+}
+
+#poppins1 {
+    text-decoration: underline;
+    font-family: 'poppins', sans-serif;
+}
+
+#poppins2 {
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+
+}
+
+#poppins3 {
+    font-style: italic ;
+    font-family: 'poppins', sans-serif;
+}
+
+.monospace {
+    font-family: "Space Mono", monospace;
+    
+    
+}
+
+#monospace1 {
+    font-family: "Space Mono", monospace;
+    text-decoration: underline;
+}
+
+#monospace2 {
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+}
+
+#monospace3 {
+    font-family: "Space Mono", monospace;
+    font-style: italic;
+}
+
+
+
+.fonts {
+    text-align: center;
+}
+
+.styles {
+    text-align: center;
+   
+}
+
+footer {
+    color: black;
+    font-family: "Space mono", monospace;
+    border: 1px solid black;
+    width: 8%;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+
+
+
+
+footer a:visited {
+    color: blue;
+}
+
+footer a:hover {
+    color: blueviolet;
+}
+
+footer a:active {
+    color: orange;
+}

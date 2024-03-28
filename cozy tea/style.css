@@ -1,0 +1,308 @@
+html {
+    font-size: 18px;
+    
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: .9;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    z-index: 2;
+    align-items: center;
+    background: black;
+    
+
+}
+
+.tealogo img {
+    height: 50px;
+    padding-left: 9px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+
+.headlist {
+    text-decoration: underline;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 69px;
+    margin-right: 20px;
+}
+
+
+.missioncontainer {
+    display: flex;
+    position: relative;
+    background-image: url("img-mission-background\ \(1\).jpg");
+    background-size: 1200px 700px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 700px;  
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+
+.missiontext {
+    display: flex;
+    flex-flow: column;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    width: 1200px;
+    height: 100px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: absolute;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+
+.tea {
+   
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    
+    
+}
+
+
+.teatext {
+    background-color: black;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    padding: 5px 5px;
+    width: 1000px;
+    justify-content: space-around;
+    align-content: center;
+    height: 140px;
+    text-align: center;
+
+
+}
+
+.teacontainer {
+    display: flex;
+    position: relative;
+    flex-direction:  row;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 1000px;
+    height: 500px;
+    
+}
+
+.blitztea {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    
+}
+
+#berry {
+    padding-top: 200px;
+    flex-flow: row;
+    
+} 
+
+.blitztea img {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    left: 250px;
+    
+}
+
+.rumtea {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+
+.rumtea img {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    left: 275px;
+}
+
+.donuts {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+
+.donuts img {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    left: 350px;
+}
+
+.myrtletea {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    top: 300px;
+    right: 525px;
+}
+
+.myrtletea img {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    
+}
+
+.bizarretea {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    top: 300px;
+    right: 400px;
+}
+
+.bizarretea img {
+    display: flex;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    
+}
+
+
+.location {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-image: url("img-locations-background.jpg");
+    background-size: 1200px 500px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    color: rgba(255, 231, 231, 0.694);
+    flex-flow: column;
+    margin-top: 50px;
+    align-items: center;
+    
+    
+}
+
+
+.location2 {
+    position: relative;
+    display: flex;
+   
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    padding-bottom: 100px;
+    color: white;
+    
+   
+
+}
+
+.downtown {
+    display: block;
+    background-color: black;
+    border: 1px solid white;
+    margin-right: 40px;
+    line-height: 70px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    
+    
+    
+}
+
+.bayside {
+    display: block;
+    background-color: black;
+    border: 1px solid white;
+    margin-right: 40px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.oakdale {
+    display: block;
+    background-color: black;
+    border: 1px solid white;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.contact {
+    display: flex;
+    flex-flow: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+
+}
+
+footer {
+    text-align: left;
+    margin: 20px;
+}

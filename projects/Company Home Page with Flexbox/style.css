@@ -1,0 +1,286 @@
+html, body {
+    font-size: 16px;
+    font-family: 'Forum', sans-serif;
+    background-color: #f5eff0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -------- HEADER/NAV --------*/
+
+
+.header {
+    text-align: center;
+    height: 50px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: underline;
+     height: 50px;
+    width: 100%;
+    
+}
+
+.one {
+    padding: 0rem 2rem;
+}
+
+.two {
+    padding: 0rem 2rem;
+}
+
+.three {
+    padding: 0rem 2rem;
+}
+
+.four {
+    border: 1px solid black;
+    width: 6rem;
+    text-align: center;
+    border-radius: 5px;
+    padding: .5rem;
+    
+}
+ .shop {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+    
+ }
+
+#btn a:hover {
+    text-transform: uppercase;
+}
+
+
+/* -------- MAIN ----------*/
+
+.container {
+    display: flex;
+    flex-flow: column;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+    display: flex;
+    flex-flow: column;
+    background-image: url('https://d942ed7abe7045875546.cdn6.editmysite.com/uploads/b/d942ed7abe70458755463de3d527e115313011b6d38afa9d1f83e3ffe991e320/IMG_4074_1688493784.jpeg?width=400&optimize=medium&height=480&fit=cover&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    line-height: 2rem;
+    
+
+
+}
+
+.mission h1 {
+    text-decoration: underline;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+
+}
+
+.mission h2 {
+    margin-bottom: 2rem;
+}
+
+.mission p {
+    font-size: 1.1rem;
+    margin-bottom: 4rem;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.btn a:hover {
+    text-transform: uppercase;
+}
+
+
+
+/*--------------- INVENTORY----------------*/
+
+.inventory {
+    
+    
+    height: 550px;
+    width: 100%;
+    
+    
+}
+
+.tallow {
+    display: inline-block;
+    padding: 0rem 2rem;
+    text-align: center;
+    
+}
+
+.tallow img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.inven {
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+.inven h1 {
+    text-decoration: underline;
+    line-height:50px;
+    
+    
+    
+}
+
+
+/*---------------------------------- WHO WE ARE--------------------*/
+
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://imgs.search.brave.com/d9K9KOrdfewjsFxeZhADVj-sOF15AJcb3v_B2XF7HXo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9k/L2Q3L0Jvc3Rvbl8t/X3Bhbm9yYW1pb18o/MjMpLmpwZw');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    color: white;
+    font-weight: 700;
+    
+    
+
+}
+
+
+.ourteam {
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+.column {
+    display: inline-block;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.column h2, .column p {
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+
+.ourteam h1 {
+    text-decoration: underline;
+    
+}
+
+.column img {
+    margin: 10px 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+   .inventory {
+    height: 100%;
+    margin-bottom: 4rem;
+   }
+
+   .header {
+    margin-bottom: 3rem;
+    
+   }
+
+   .navigation {
+    width: 100%;
+    font-size: .8rem;
+    
+   }
+
+   .one {
+    padding: 0rem 1rem;
+   }
+
+   .two {
+    padding: 0rem 1rem;
+   }
+
+   .three {
+    padding: 0rem 1rem;
+   }
+
+   .tallow img {
+    width: 75%;
+    height: 75%;
+   }
+
+   .shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .inven h1 {
+    margin-bottom: 2rem;
+   }
+    
+}
+
+
+
